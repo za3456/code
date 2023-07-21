@@ -1,0 +1,164 @@
+html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+	  object-fit: cover; 
+	  }
+	  .d1{
+		  margin-left:400px;
+	  margin-top:90px;
+	  }
+	  .d1:hover{
+		  background-color:red;
+	  }
+	  .text1{
+		  margin-left:80px;
+	  }
+	.map-wrapper{
+	width:100%;
+}
+.googlemap{
+	width:100%;
+}
+
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 1360px;
+   height:630px;
+   margin-left:-15px;
+  background:linear-gradient(to right,#00093c, #2d0d00);
+	color:#fff;
+   text-align:center;
+   opacity:o.19;
+ /*background-image:url("image/5terre.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	opacity:0.29;
+	color:green;*/
+}
+	.col{
+		flex-basis:25%;
+		padding:10px;
+	}
+	.logo{
+		width:190px;
+		margin-left:-1110px;
+		margin-top:120px;
+		
+	}
+	.text12{
+		margin-top:30px;
+		margin-left:-1014px;
+		display:block;
+		color:red;
+	}
+	.d8{
+		margin-top:-240px;
+		margin-left:-390px;
+		color:red;
+	}
+	.d9
+	{
+		margin-left:-390px;
+		color:red;
+	}
+	.d9:hover{
+	color:red;
+}
+	.text13
+	{
+		margin-top:-150px;
+		color:red;
+	}
+.d14:hover{
+	color:red;
+}
+	.d17{
+		margin-left:400px;
+		margin-top:-60px;
+		color:red;
+	}
+	.d17:hover{
+	color:red;
+	}
+	.logo{
+		width:190px;
+		margin-left:-1110px;
+		margin-top:120px;
+		
+	}
+	.p1{
+		margin-left:930px;
+		margin-top:-150px;
+		color:red;
+	}
+	.logo3{
+		width:310px;
+		margin-left:930px;
+		margin-top:60px;
+	}
+	.links img{
+	width:50px;
+	height:40px;
+	border-radius:50%;
+	margin:10px 5px;
+	transition:background o.5s;
+}
+.card.links img:hover{
+	background:#ff01cf;
+}
+.btn{
+	text-decoration:none;
+	display:inline-block;
+	font-size:18px;
+	font-weight:500;
+	background:#fff;
+	color:#ff01f;
+	padding:20px 20px;
+	border-radius:20px;
+	margin:20px 0 20px;
+	margin-top:-10px;
+}
+ 
